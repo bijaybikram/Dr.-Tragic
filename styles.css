@@ -2,48 +2,150 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: #40514e;
+    background-color: rgb(244, 248, 250);
+
     
 }
 
 h1 { 
-    margin-top: 0;
+    margin-top: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    color: #66bfbf;
 }
 
+h2  {
+    font-family: 'Helvetica', 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    padding: 10px;
+ }
+
+h3 {
+    color: #11999e;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+h4 {
+    padding-bottom: 20px 0px;
+    color: #eaf6f6;
+    font-size: 10px;
+  }   
+
 .top-container {
-    background-color: aquamarine;
+    background-color: rgb(205, 245, 231);
     position: relative;
-    padding-top: 330px;
+    padding-top: 100px;
 }
+
 .middle-container {
+    margin: 100px 0;
 }
+
 .intro {
     font-family: 'Inconsolata', monospace;
     color: blueviolet;
+    width: 30%;
+    margin: auto;
 }
+
 .bottom-container {
+    background-color: #66bfbf;
+    position: relative;
+    padding: 25px 0 20px ;
+    margin-top: 40px;
 }
+
+
+hr {
+    background-color: none;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(202, 202, 202);
+    border-width: 5px;
+    width: 3%;
+    margin: 100px auto;
+}
+
  .master
  {
      text-decoration: underline;
  }
+
  .bottom-cloud {
      position: absolute;
-     left: 300px;
+     left: 250px;
      bottom: 300px;
  }
+
  .top-cloud
  {
      position: absolute;
-     top: 50px;
+     top: 40px;
      right: 300px;
 
  }
- h2  {
-    font-family: 'Merriweather', serif;
- }
+ 
+ 
  .skillydoc {
-     position: relative;
-     height: 400px;
-     width: 600px;
+     width: 25%;
+     float: left;
+     margin-right: 30px;
  }
+
+ .skillydoct {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px ;
+    text-align: left;
+    font-weight: bold;
+}
+.message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-color: #11999e; /* Green */
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    font-family: helvetica;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  a {
+    font-family: Helvetica, 'Merriweather', serif;
+    font-size: 15px;
+    color: #11999e;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+  }
+
+a:hover {
+    color: #eaf6f6;
+}
+
+p {
+    font-weight: bold;
+    line-height: 2;
+  }
+  
